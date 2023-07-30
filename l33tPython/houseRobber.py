@@ -6,4 +6,5 @@ class Solution:
             temp = max(i + house1, house2)
             house1 = house2
             house2 = temp
+            
         return house2
