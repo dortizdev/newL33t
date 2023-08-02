@@ -12,4 +12,5 @@ class Solution:
             return max(left, right) + 1
         
         dfs(root)
+        
         return self.width
